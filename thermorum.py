@@ -110,7 +110,7 @@ def main(args):
 	db=sqlite.connect(expanduser('~/projekt/switch/Thermo.db'))
 	cur=db.cursor()
 	koket = rum('köket','192.168.1.9','28-000007053ca0',['newswitchaccurate.py 4 '])
-	stora_rummet = rum('stora_rummet','192.168.1.5','28-00000704b7f5',['myswitchaccurate.py 3 ','newswitchaccurate.py 6 '])
+	stora_rummet = rum('stora_rummet','192.168.1.5','28-00000704b7f5',['newswitchaccurate.py 6 '])
 	sovrummet = rum('sovrummet','192.168.1.8','28-00000705c52f',['newswitchaccurate.py 3 '])
 	hallen = rum('hallen','192.168.1.10','28-000007057d28',[])
 	ute=rum('ute','192.168.1.5','28-000005fce0db',[])
